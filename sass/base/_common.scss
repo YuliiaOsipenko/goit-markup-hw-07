@@ -1,0 +1,30 @@
+body {
+    color: #2a2a2a;
+    background-color: #fff;
+    font-family: Roboto; 
+    letter-spacing: 0.03em;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+.container {
+    
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    
+}
+.ul, .ol, .h1, .h2, .h3, .h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.about, .portfolio-list,.footer-social-list, .clients-list, .social-list, .team-list, .footer, .footer-social, .footer-list, .site-nav, .auth-nav, .menu-list, .projects-list{
+    list-style: none;
+  
+}
