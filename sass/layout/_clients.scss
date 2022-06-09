@@ -2,7 +2,7 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.clients-title {
+.clients__title {
     color: var(--title-color);
     font-weight: bold;
     font-size: 36px;
@@ -11,7 +11,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.clients-list{
+.clients__list{
     display: flex;
     justify-content: center;
     padding-left: 0px;
@@ -20,7 +20,7 @@
     
 }
 
-.clients-item {
+.clients__item {
     margin-right: 30px;
     width: 170px;
     height: 90px;
@@ -30,7 +30,7 @@
     
 }
 
-.clients-link {
+.clients__link {
     fill: #AFB1B8;
     display: flex;
     align-items: center;

@@ -1,4 +1,4 @@
-.about, .portfolio, .header {
+.about__list, .portfolio, .header {
     background-color: var(--primary-bgc);
     margin: 0;
     padding-left: 0px;
@@ -9,12 +9,12 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.about {
+.about__list {
     display: flex;
     
         
 }
-.about-image{
+.about__image{
     background: #F5F4FA;
     border-radius: 4px;
     display: flex;
@@ -24,7 +24,7 @@
 
     
 } 
-.about-item {
+.about__item {
     margin-right: 30px;
     width: 270px;
     &:nth-child(4n){
@@ -32,12 +32,12 @@
     }
 }
 
-.about-icon{
+.about__icon{
     background: #F5F4FA;
     border-radius: 4px;
     
 }
-.about-title{
+.about__title{
     color: var(--title-color);
     font-weight: bold;
     font-size: 14px;
@@ -47,7 +47,7 @@
     
     
 }
-.about-list {
+.about__text {
     color: var(--primary-text-color);
     font-weight: normal;
     font-size: 14px;

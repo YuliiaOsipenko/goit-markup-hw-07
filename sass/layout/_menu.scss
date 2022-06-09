@@ -1,9 +1,9 @@
-.menu-list, .projects-list, .projects-filter {
+.projects__menu-list, .projects__list, .projects__filter {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.menu-list{
+.projects__menu-list{
     
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
      
 }
 
-.menu-button{
+.projects__btn{
     color: var(--title-color);
     background-color: var(--secondary-bgc);
     font-style: normal;

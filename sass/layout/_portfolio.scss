@@ -3,7 +3,7 @@
     
     padding-bottom: 94px;
 }
-.portfolio-title{
+.portfolio__title{
     color: var(--title-color);
     font-weight: bold;
     font-size: 36px;
@@ -12,19 +12,19 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.portfolio-list{
+.portfolio__list{
     padding-left: 0px;
     margin-top: 50px;
     margin-bottom: 0px;
     display: flex;
 }
-  .portfolio-foto{
+  .portfolio__image{
       margin-right: 30px;
       position: relative;
       
   }
   
-  .over-thumb{
+  .portfolio__over-thumb{
       position: absolute;
       width: 370px;
       height: 70px;
@@ -36,7 +36,7 @@
       top:224px;
     
   }
-  .portfolio-text{
+  .portfolio__text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
